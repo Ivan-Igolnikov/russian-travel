@@ -1,5 +1,4 @@
 .photo-grid {
-  border: 1px solid red;
   max-width: calc(100vw - 10%);
   display: grid;
   grid-template-columns: repeat(auto-fit, 1fr);
