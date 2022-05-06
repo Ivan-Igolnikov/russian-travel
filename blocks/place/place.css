@@ -1,0 +1,14 @@
+.place {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 50px;
+}
+
+.place:first-of-type {
+  padding-top: 64px;
+}
+
+.place:nth-of-type(5) {
+  padding-bottom: 0px;
+}

@@ -1,13 +1,12 @@
-.lead__title {
+.cover__title {
   margin: 0;
-
-  padding-top: 48px;
+  padding: 0;
   font-family: "Inter";
   font-style: normal;
   font-weight: 900;
-  font-size: 40px;
-  line-height: 44px;
-  /* or 110% */
+  font-size: 32px;
+  line-height: 35px;
+  /* or 109% */
 
   text-align: center;
 

@@ -1,6 +1,5 @@
 @import url(https://necolas.github.io/normalize.css/8.0.1/normalize.css);
 @import url(../vendor/fonts/Inter/inter.css);
-
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/header/header.css);
@@ -22,132 +21,21 @@
 @import url(../blocks/photo-grid/photo-grid.css);
 @import url(../blocks/photo-grid/__item/photo-grid__item.css);
 
-.places {
-  padding-top: 64px;
-  display: flex;
-  flex-direction: column;
-}
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__anounce/place__anounce.css);
+@import url(../blocks/place/__content/place__content.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__link-url/place__link-url.css);
+@import url(../blocks/place/__link/place__link.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__title/place__title.css);
 
-.place {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 50px;
-}
+@import url(../blocks/cover/cover.css);
+@import url(../blocks/cover/__link/cover__link.css);
+@import url(../blocks/cover/__title/cover__title.css);
+@import url(../blocks/cover/__subtitle/cover__subtitle.css);
 
-.place:last-of-type {
-  padding-bottom: 0;
-}
-
-.place__image {
-  max-width: 100%;
-  object-fit: contain;
-  padding-top: 32px;
-}
-
-.place__link-url {
-  display: block;
-  margin: 0;
-  padding-top: 32px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 12px;
-  /* identical to box height, or 100% */
-
-  letter-spacing: 2px;
-
-  color: #aaaaaa;
-}
-
-.place__link {
-  display: block;
-  padding-top: 12px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 22px;
-  /* identical to box height, or 122% */
-
-  text-decoration-line: underline;
-
-  color: #ffffff;
-}
-
-.place__anounce {
-  max-width: calc(100vw - 10%);
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-}
-.place__title {
-  display: block;
-  margin: 0;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 900;
-  font-size: 32px;
-  line-height: 35px;
-  /* identical to box height, or 109% */
-
-  color: #ffffff;
-}
-
-.place__content {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
-
-.place__paragraph {
-  margin: 0;
-  padding-top: 32px;
-  max-width: calc(100vw - 10%);
-  width: 100%;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 163%;
-  /* or 26px */
-
-  color: #ffffff;
-}
-
-.place__paragraph:nth-of-type(2) {
-  padding-top: 25px;
-}
-
-/*.footer {
-  display: flex;
-  justify-content: space-between;
-  padding: 0 48px 24px 48px;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 18px;
-
-}
-
-.footer__links {
-  display: flex;
-  gap: 18px;
-}
-
-.footer__link {
-  text-decoration: none;
-  color: #ffffff;
-}
-
-.footer__link:hover {
-  opacity: 0.7;
-  transition: 0.3s;
-}
-
-.footer__copyright {
-  margin: 0;
-  color: #ffffff;
-}*/
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__links/footer__links.css);
+@import url(../blocks/footer/__link/footer__link);
+@import url(../blocks/footer/__copyright/footer__copyright.css);

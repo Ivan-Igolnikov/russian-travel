@@ -1,13 +1,12 @@
-.lead__subtitle {
+.cover__subtitle {
   margin: 0;
-
   padding-top: 16px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 20px;
-  /* or 125% */
+  font-size: 14px;
+  line-height: 16px;
+  /* or 114% */
 
   text-align: center;
 
