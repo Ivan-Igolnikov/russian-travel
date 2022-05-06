@@ -10,3 +10,14 @@
 
   color: #ffffff;
 }
+
+@media screen and (min-width: 1280px) {
+  .place__title {
+    font-size: 72px;
+    line-height: 76px;
+    /* or 106% */
+    max-width: 460px;
+    width: 100%;
+    padding-right: 40px;
+  }
+}

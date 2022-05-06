@@ -3,3 +3,9 @@
   object-fit: contain;
   padding-top: 32px;
 }
+
+@media screen and (min-width: 1280px) {
+  .place__image {
+    padding-right: 40px;
+  }
+}
