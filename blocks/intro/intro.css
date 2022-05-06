@@ -4,3 +4,22 @@
   display: flex;
   flex-direction: column;
 }
+
+@media screen and (min-width: 768px) {
+  .intro {
+    padding-top: 88px;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .intro {
+    padding-top: 92px;
+    width: 928px;
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .intro {
+    width: 984px;
+  }
+}

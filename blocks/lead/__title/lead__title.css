@@ -1,6 +1,6 @@
 .lead__title {
   margin: 0;
-
+  max-width: 288px;
   padding-top: 48px;
   font-family: "Inter";
   font-style: normal;
@@ -12,4 +12,19 @@
   text-align: center;
 
   color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .lead__title {
+    max-width: 720px;
+    font-size: 96px;
+    line-height: 100px;
+    /* or 104% */
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .lead__title {
+    padding-top: 56px;
+  }
 }
