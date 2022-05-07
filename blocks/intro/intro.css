@@ -5,20 +5,20 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .intro {
     padding-top: 88px;
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
   .intro {
     padding-top: 92px;
     width: 928px;
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
   .intro {
     width: 984px;
   }

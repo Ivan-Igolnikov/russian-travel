@@ -10,7 +10,7 @@
   padding-top: 64px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .place:first-of-type {
     padding-top: 88px;
   }
@@ -28,7 +28,7 @@
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 1023px) {
   .place:first-of-type {
     padding-top: 92px;
   }
@@ -39,7 +39,7 @@
   }
 }
 
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
   .place {
     max-width: 984px;
     column-gap: 40px;

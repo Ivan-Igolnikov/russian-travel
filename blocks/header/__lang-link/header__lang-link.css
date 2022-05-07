@@ -3,12 +3,9 @@
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 20px;
-  /* identical to box height, or 111% */
-
+  line-height: 1.11;
   text-align: right;
   text-decoration: none;
-
   color: #ffffff;
 }
 .header__lang-link:first-of-type {
@@ -16,15 +13,13 @@
   margin-right: 16px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .header__lang-link {
     font-family: "Inter";
     font-style: normal;
     font-weight: 400;
     font-size: 24px;
-    line-height: 28px;
-    /* identical to box height, or 117% */
-
+    line-height: 1.17;
     text-align: right;
     color: #ffffff;
   }

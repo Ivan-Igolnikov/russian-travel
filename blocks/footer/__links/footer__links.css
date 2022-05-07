@@ -6,8 +6,16 @@
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
-  line-height: 24px;
-  /* identical to box height, or 100% */
-
+  line-height: 1;
   color: #ffffff;
+}
+
+@media screen and (min-width: 767px) {
+  .footer__links {
+    flex-direction: row;
+    gap: 18px;
+    font-size: 16px;
+    line-height: 1.12;
+    color: #ffffff;
+  }
 }

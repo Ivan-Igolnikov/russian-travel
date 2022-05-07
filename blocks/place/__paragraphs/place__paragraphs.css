@@ -5,12 +5,12 @@
   width: 100%;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 767px) {
   .place__paragraphs {
     padding-top: 48px;
   }
 }
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1279px) {
   .place__paragraphs {
     grid-area: paragraphs;
   }
