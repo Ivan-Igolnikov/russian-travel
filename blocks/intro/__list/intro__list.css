@@ -1,7 +1,5 @@
 .intro__list {
   margin: 0;
-  padding-top: 34px;
-  padding-bottom: 64px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 700;
@@ -10,14 +8,24 @@
   color: #ffffff;
 }
 
+.intro__list:last-of-type {
+  padding-bottom: 64px;
+}
+
+.intro__list-normal {
+  margin: 0;
+  padding: 0;
+  font-weight: 400;
+}
+
 @media screen and (min-width: 767px) {
-  .intro__list {
+  .intro__list:last-of-type {
     padding-bottom: 88px;
   }
 }
 
 @media screen and (min-width: 1023px) {
-  .intro__list {
+  .intro__list:last-of-type {
     padding-bottom: 92px;
   }
 }
