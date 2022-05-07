@@ -15,8 +15,7 @@
   .lead__title {
     max-width: 720px;
     font-size: 96px;
-    line-height: 100px;
-    /* or 104% */
+    line-height: 1.04;
   }
 }
 
