@@ -1,21 +1,16 @@
 .intro__list {
   margin: 0;
-  font-family: "Inter";
+  font-family: "Inter", sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   line-height: 1.5;
   color: #ffffff;
+  list-style-type: none;
 }
 
 .intro__list:last-of-type {
   padding-bottom: 64px;
-}
-
-.intro__list-normal {
-  margin: 0;
-  padding: 0;
-  font-weight: 400;
 }
 
 @media screen and (min-width: 767px) {
